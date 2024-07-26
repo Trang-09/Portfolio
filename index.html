@@ -6,10 +6,8 @@
     ================================================== -->
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>PortfolioPerfect</title>
-    <title> Game</title>
 
     <meta name="description" content="">
     <meta name="author" content="">
@@ -32,11 +30,16 @@
     ================================================== -->
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="assets/css/game.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
 
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 <body>
@@ -63,9 +66,9 @@
                         <li class="page-scroll"><a href="#hero">Home</a></li>
                         <li class="page-scroll"><a href="#about">About</a></li>
                         <li class="page-scroll"><a href="#service">Service</a></li>
-                        <li class="page-scroll"><a href="#portfolio">Project</a></li>
+                        <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+                        <li class="page-scroll"><a href="#game">Game</a></li>
                         <li class="page-scroll"><a href="#contact">Contact</a></li>
-                        <li class="page-scroll"><a href="https://trang-09.github.io/Portfolio/Game/">Game</a></li>
                         
                     </ul><!-- /.navbar-nav -->
 
@@ -90,7 +93,7 @@
                 </div>
             
                 <div class="col-md-6 text-right">
-                    <img src="assets/img/avartar.png" alt="alex-vidal">
+                    <img src="assets/img/avartar.png" alt="thuy-trang">
                 </div>
 
             </div>
@@ -103,11 +106,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
-                        <h2><strong><span>A</span></strong>bout</h2>
+                        <h2>About</h2>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-                        <p>Hello! I'm Trang, a Designer and developer, a guy slighty obsessed for code quality. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.<br>
-                        </p>
-                        <a href="https://docs.google.com/document/d/13hX8pe0UDd6t7H5fxsNBoTG8mTuBYx3AvrO2KW-66NM/edit?usp=sharing" class="btn btn-fill" target="_blank" >Review my cv</a>
+                        <p>Hello! I'm Trang, a Designer and developer. I’m currently available for freelance work. If you have a project that you want to get started or think you need my help with something, then get in touch.</p>
+                        <a href="https://docs.google.com/document/d/13hX8pe0UDd6t7H5fxsNBoTG8mTuBYx3AvrO2KW-66NM/edit?usp=sharing" class="btn btn-fill" target="_blank" download>Review my cv</a>
                     </div>
                 </div>
             </div>
@@ -116,41 +118,55 @@
         <section class="site-section section-skills">
             <div class="container">
                 <div class="text-center">
-                    <h3><strong><span>M</span></strong>y skill</h3>
+                    <h3>My Skills</h3>
                     <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                 </div>
                 <div class="row">
-                    <div class="col-md-4"> 
+                    <div class="col-md-4">
                         <div class="skill">
                             <h4>Html/css</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="30"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="30"></div>
+                            </div>
+                        </div>
                         <div class="skill">
                             <h4>Python</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="50"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="30"></div>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
                         <div class="skill">
                             <h4>Javascript</h4>
                             <div class="progress">
-                                <div class="progress-bar" role="progressbar" data-transitiongoal="40"></div><!-- /.progress-bar -->
-                            </div><!-- /.progress -->
-                        </div><!-- /.skill -->
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="30"></div>
+                            </div>
+                        </div>
+                        <div class="skill">
+                            <h4>C++</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="20"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="skill">
+                            <h4>Php</h4>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" data-transitiongoal="30"></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section><!-- /.secton-skills -->
+        </section>
 
         <section id="service" class="site-section section-services overlay text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h3><strong><span>W</span></strong>hat I do</h3>
+                        <h3>What i do</h3>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                     </div>
                     <div class="col-sm-4">
@@ -181,15 +197,15 @@
         <section id="portfolio" class="site-section section-portfolio">
             <div class="container">
                 <div class="text-center">
-                    <h3><strong><span>P</span></strong>roject</h3>
+                    <h3>My recent Works</h3>
                     <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/H1.jpg" class="img-res" alt="">
+                            <img src="assets/img/portfolio-1.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>HTML</h4>
+                                <h4>Project Title</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem1"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
@@ -197,9 +213,9 @@
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/H2.jpg" class="img-res" alt="">
+                            <img src="assets/img/portfolio-2.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Build website</h4>
+                                <h4>Project Title</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem2"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
@@ -207,9 +223,9 @@
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/H3.jpg" class="img-res" alt="">
+                            <img src="assets/img/portfolio-3.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>In-door working</h4>
+                                <h4>Project Title</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem3"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
@@ -217,9 +233,9 @@
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/H4.jpg" class="img-res" alt="">
+                            <img src="assets/img/portfolio-4.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Mobile App</h4>
+                                <h4>Project Title</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem4"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
@@ -227,8 +243,9 @@
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/H5.jpg" class="img-res" alt="">
-                            <div class="portfolio-item-info">   
+                            <img src="assets/img/portfolio-5.jpg" class="img-res" alt="">
+                            <div class="portfolio-item-info">
+                                <h4>Project Title</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
@@ -236,9 +253,9 @@
                     </div>
                     <div class="col-md-4 col-xs-6">
                         <div class="portfolio-item">
-                            <img src="assets/img/H6.jpg" class="img-res" alt="">
+                            <img src="assets/img/portfolio-6.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>Python</h4>
+                                <h4>Project Title</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
                             </div><!-- /.portfolio-item-info -->
@@ -247,18 +264,17 @@
                 </div>
             </div>
         </section><!-- /.secton-portfolio -->
-        
 
         <section class="site-section section-counters text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="1" data-speed="2000">0</p>
+                        <p class="counter start" data-to="5" data-speed="2000">0</p>
                         <h4>Years Experience</h4>
                     </div>
                     <div class="col-sm-4 col-xs-12">
-                        <p class="counter start" data-to="1" data-speed="2000">0</p>       
-                        <h4>Projects Delivered</h4>      
+                        <p class="counter start" data-to="50" data-speed="2000">0</p>
+                        <h4>Projects Delivered</h4>
                     </div>
                     <div class="col-sm-4 col-xs-12">
                         <p id="infinity" class="counter" data-from="0" data-to="1" data-speed="1000">0</p>
@@ -266,18 +282,27 @@
                     </div>
                 </div>
             </div>
-        </section><!-- /.section-counters -->
+        </section>
 
-        <Section class="game">
-            <div>
-                
+        <section id="game" class="site-section section-form text-center">
+            <div class="container">
+                <h1>Game</h1>
+                <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                <div class="game">
+                    <div id="score"></div>
+                    <canvas id="gameCanvas" width="100" height="100"></canvas>
+                    <div id="introduction">Hold down the mouse to stretch out a stick</div>
+                    <div id="perfect">DOUBLE SCORE</div>
+                    <button id="restart">RESTART</button>
+                </div>
             </div>
-        </Section>
-
+            <script src="assets/js/game.js"></script>
+        </section>
+        
         <section id="contact" class="site-section section-form text-center">
             <div class="container">
 
-                <h3>Contact</h3>
+                <h4>Contact</h4>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
                 <form>
                     <div class="row">
@@ -295,7 +320,8 @@
                 </form>
             </div>
         </section><!-- /.section-form -->
-    </main><!-- /#main -->  
+
+    </main><!-- /#main -->
 
     <footer id="colophon" class="site-footer">
         <div class="container">
@@ -306,7 +332,7 @@
                     <a class="icon gplus-bg" href="#"><i class="icon-linkedin"></i></a>
                     <a class="icon linkedin-bg" href="#"><i class="icon-gplus"></i></a>
                 </div>
-                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">2017. All Rights Reserved</p></div>
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright"></p></div>
                 <div class="col-sm-4 col-xs-3">
                     <div class="text-right page-scroll">
                         <a class="icon icon-up-bg" href="#hero"><i class="icon-up"></i></a>
@@ -326,6 +352,7 @@
           </div>
           <div class="modal-body">
             <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-fill">Visit Page</a>
@@ -343,6 +370,7 @@
           </div>
           <div class="modal-body">
             <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-fill">Visit Page</a>
@@ -360,6 +388,7 @@
           </div>
           <div class="modal-body">
             <h4 class="modal-title">Project title</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec commodo finibus tristique. Maecenas dignissim condimentum sem eu tincidunt. Curabitur in dui quis magna vestibulum pulvinar a ut urna. Nam pellentesque mattis urna. Aenean eget lectus sit amet turpis facilisis consectetur quis vel ante. Integer in massa ut nibh ultricies sagittis imperdiet in ante. Nam sed turpis vel ante placerat feugiat ac tempus magna. Nam aliquet ullamcorper dolor non hendrerit.</p>
           </div>
           <div class="modal-footer">
             <a href="#" class="btn btn-fill">Visit Page</a>
@@ -431,7 +460,5 @@
     <script src="assets/js/skrollr.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-progressbar/0.9.0/bootstrap-progressbar.min.js"></script>
     <script src="assets/js/jquery.countTo.min.js"></script>
-    <script src="assets/js/script.js"></script>
-  
 </body>
 </html>

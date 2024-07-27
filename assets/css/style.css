@@ -289,31 +289,32 @@
   
   /* Section: Skills */
   .section-skills {
-      padding-bottom: 120px;
-  }
+    padding-bottom: 120px;
+}
+
+.skill + .skill {
+    margin-top: 50px;
+}
+
+.skill h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+}
+
+.progress {
+    height: 15px;
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #dfdfdf;
+    box-shadow: none;
+}
+
+.progress-bar {
+    background-color: #212121;  
+}
   
-  .skill + .skill {
-      margin-top: 50px;
-  }
-  
-  .skill h4 {
-      font-size: 24px;
-      text-transform: uppercase;
-      margin: 0 0 15px;
-  }
-  
-  .progress {
-      height: 15px;
-      margin-bottom: 0;
-      border-radius: 0;
-      background-color: #dfdfdf;
-      box-shadow: none;
-  }
-  
-  .progress-bar {
-      background-color: #212121;  
-  }
-  
+
   /* Section: Services */
   .section-services {
       position: relative;
@@ -520,16 +521,12 @@
   /* Section: Form*/
   .section-form {
       padding-bottom: 120px;
+
   }
   
   .section-form .btn {
       margin-top: 40px;
   }
-  
-  
-  
-  
-  
   
   
   /* FOOTER

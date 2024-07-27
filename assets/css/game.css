@@ -26,14 +26,14 @@
 
 #score {
   position: absolute;
-  top: 71%;
-  right: 16%;
+  top: 10%;
+  right: 5%;
   font-size: 2em;
   font-weight: 900;
 }
 
 #introduction {
-  top: 73%;
+  top: 20%;
   left: 45%;
   width: 200px;
   height: 150px;
@@ -46,7 +46,7 @@
 }
 
 #restart {
-  top: 73%;
+  top: 30%;
   left: 47%;
   width: 120px;
   height: 120px;
@@ -67,4 +67,3 @@
   opacity: 0;
   transition: opacity 2s;
 }
-
